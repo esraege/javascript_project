@@ -1,5 +1,3 @@
-var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-
 const setBg = () => {
   const randomColor = 
   Math.floor(Math.random() * 16777215).toString(16);
@@ -8,5 +6,5 @@ const setBg = () => {
   color.innerHTML = "#" + randomColor;
 };
 
-button.addEventListener("click", setBg);
+
 setBg();
