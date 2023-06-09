@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+}
+
+.video-flo{
+    width: 100vw;
+}
+
+.button-controls{
+    display: flex;
+    top: 620px;
+    left: 20px;
+    position: absolute;
+}
+
+.play-pause-btn{
+    width: 100px;
+    height: 80px;
+    background-color: #00000084;
+    border: 0;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.play-pause-btn:hover{
+    background-color: #0000002a;
+}
+
+.play-pause-btn span{   
+    color: rgb(187, 180, 185);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
